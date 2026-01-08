@@ -7,7 +7,7 @@ const AuthFooter = ({ onSignIn }) => {
     <View
       style={{
         position: "absolute",
-        top: H(82),
+        top: H(90),
         flexDirection: "row",
         alignSelf: "center",
       }}

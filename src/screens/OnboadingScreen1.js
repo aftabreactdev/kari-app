@@ -174,7 +174,7 @@ const OnboardingScreen1 = ({ navigation }) => {
 
         <Text style={{
           opacity: 0.5,
-          fontSize: 15,
+          fontSize: 13,
           alignSelf: "center",
           top: 10
         }}>
@@ -182,7 +182,7 @@ const OnboardingScreen1 = ({ navigation }) => {
 
         <Text style={{
           opacity: 0.5,
-          fontSize: 15,
+          fontSize: 13,
           alignSelf: "center",
           top: 10
         }}> exclusive coupon, specials and rewards</Text>

@@ -13,7 +13,7 @@ const PrimaryOutlineButton = ({ text, onPress }) => {
       onPress={typeof onPress === "function" ? onPress : undefined}
       style={{
         position: "absolute",
-        top: H(75),
+        top: H(79),
         alignSelf: "center",
         height: H(7),
         width: W(70),
