@@ -2,7 +2,7 @@ import React from "react";
 import { TouchableOpacity, Text } from "react-native";
 import { widthPercentageToDP as W, heightPercentageToDP as H } from "react-native-responsive-screen";
 
-const PrimaryOutlineButton = ({ text, onPress }) => {
+const PrimaryOutlineButton = ({ text, onPress, }) => {
   if (!text) {
     console.warn("PrimaryOutlineButton: text is required");
     return null;

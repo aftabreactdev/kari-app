@@ -9,7 +9,7 @@ import {
     StatusBar
 } from "react-native";
 import Navigation from "./src/Navigation/Navigation"
-// import Signup from "./src/screens/Signup"
+
 const App = () => {
   return (
     <>
