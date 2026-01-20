@@ -46,8 +46,6 @@ const Signup = ({ navigation }) => {
     // For now just logging data
     console.log("Signup Data:", { firstName, lastName, email, password });
 
-    // Navigate to Home page with first & last name
-    // navigation.navigate("Home", { firstName, lastName });
       navigation.navigate("Signup1", { firstName, lastName, email, password });
 
   };
@@ -62,7 +60,7 @@ const Signup = ({ navigation }) => {
 
       {/* Top Image */}
       <View style={{ opacity: 0.1, alignSelf: "flex-end", margin: 10 }}>
-        <Image source={require("../assets/k.png")} style={{ height: H(12), width: W(16) }} />
+        <Image source={require("../assets/k.png")} style={{ height: H(20), width: W(25) }} />
       </View>
 
       {/* Title */}

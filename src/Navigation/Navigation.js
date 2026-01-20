@@ -10,15 +10,15 @@ import OnboadingScreen3 from "../screens/OnboadingScreen3";
 import WelcomeScreen from "../screens/WelcomeScreen";
 import Signup from "../screens/Signup"
 import Signup1 from "../screens/Signup1"
-import VerificationCode from "../src/screens/VerificationCode";
-import AccountVerified from "../src/screens/AccountVerified"
-import Login from "../src/screens/Login"
-import AddAddress from "../src/screens/AddAddress"
-import SaveAddress from "../src/screens/SaveAddress"
-import Addpin from "../src/screens/Addpin"
-import PinVerified from "../src/screens/PinVerified"
-import AddBiometrics from "../src/screens/AddBiometrics"
-import LockScreen from "../src/screens/LockScreen"
+import VerificationCode from "../screens/VerificationCode";
+import AccountVerified from "../screens/AccountVerified"
+import Login from "../screens/Login"
+import AddAddress from "../screens/AddAddress"
+import SaveAddress from "../screens/SaveAddress"
+import Addpin from "../screens/Addpin"
+import PinVerified from "../screens/PinVerified"
+import AddBiometrics from "../screens/AddBiometrics"
+import LockScreen from "../screens/LockScreen"
 const Stack = createNativeStackNavigator();
 
 const Navigation = () => {

@@ -118,7 +118,7 @@ const Addpin = () => {
 
       {/* Submit Button */}
       <TouchableOpacity onPress={handleSubmit} style={styles.button}>
-        <Text style={styles.buttonText}>Add</Text>
+        <Text style={styles.buttonText}>Next</Text>
       </TouchableOpacity>
 
       <View style={{ height: 40 }} />

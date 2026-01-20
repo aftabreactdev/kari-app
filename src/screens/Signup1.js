@@ -39,8 +39,9 @@ const Signup1 = ({ navigation }) => {
       return;
     }
 
-    alert(`Phone: ${selectedCountry.code} [${phone}]`);
-  };
+  navigation.navigate("VerificationCode", {
+    phone: `${selectedCountry.code}${phone}`,
+  });
 
   return (
     <ScrollView keyboardShouldPersistTaps="handled" style={{ flex: 1 }}>
@@ -168,6 +169,7 @@ const Signup1 = ({ navigation }) => {
           marginTop: 30,
           justifyContent: "center",
         }}
+        
       >
         <Text
           style={{
@@ -184,5 +186,5 @@ const Signup1 = ({ navigation }) => {
     </ScrollView>
   );
 };
-
+}
 export default Signup1;
