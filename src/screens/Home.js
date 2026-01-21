@@ -11,6 +11,7 @@ import Ionicons from "react-native-vector-icons/Ionicons";
 import EvilIcons from "react-native-vector-icons/EvilIcons";
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 import { widthPercentageToDP as W, heightPercentageToDP as H } from "react-native-responsive-screen";
+import BottomBar from "../Navigation/BottomBar"
 
 const items = [
   { name: "Electricity", image: require("../assets/electricity.png") },
@@ -25,6 +26,8 @@ const items = [
 
 const HomeScreen = () => {
     // Separate state for different sections
+      const [activeTab, setActiveTab] = useState("Home");
+
     const [selectedCategoryIndex, setSelectedCategoryIndex] = useState(0);
     const [selectedKariPayIndex, setSelectedKariPayIndex] = useState(0);
 
@@ -315,7 +318,14 @@ const HomeScreen = () => {
                     />
                 </TouchableOpacity>
             </View>
+             <BottomBar
+        active={activeTab}
+        onChange={(tab) => setActiveTab(tab)}
+      />
+    
         </ScrollView>
+
+        
     );
 };
 

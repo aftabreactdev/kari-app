@@ -27,6 +27,7 @@ import {
 // import AddBiometrics from "./src/screens/AddBiometrics"
 // import LockScreen from "./src/screens/LockScreen"
 import Home from "./src/screens/Home"
+// import BottomBar from "./src/Navigation/BottomBar"
 
 
 const App = () => {
