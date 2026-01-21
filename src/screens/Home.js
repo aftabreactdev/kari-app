@@ -260,7 +260,7 @@ const HomeScreen = () => {
             >
                 <View style={{ flex: 1 }}>
                     <Image 
-                        source={require("../assets/Promo.png")} 
+                        source={require("../assets/Promo2.png")} 
                         style={{
                             height: H(25),
                             width: W(90),
